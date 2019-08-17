@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>computer_room</title>
+	<link rel="stylesheet" href="css.css">
+</head>
+
+
+	
+	
+    <body>
+
+		
+		
+		
+<audio id="audio"  src="audio.mp4" controls autoplay loop onloadeddata="setHalfVolume()">
+</audio>
+		
+		
+<!--
+<div id="audio">
+	<audio autoplay="true" src="audio.mp4">
+	<audio  controls autoplay>
+	  <source src="audio.mp4" type="audio/ogg">
+	  <source src="audio.mp4" type="audio/mpeg">
+
+	</audio>
+</div>	
+		
+		
+-->
+		
+ <div class="container">
+	
+        <img id="myButton" src="intro.png" />
+		
+        <script class="images" type="text/javascript">
+            var images = [
+                    'mic.png',
+                    'mouse.png',
+				'key.png',
+				'sew.png',
+				'lt.png',
+				'desk.png',
+				'chair.png',
+				'fur.png',
+				'pad.png',
+				'crib.png',
+				'game.png',
+				'fabric.png',
+				'pens.png',
+				'pedal.png',
+				'speakers.png',
+				'thread.png',
+				'pc.png',
+				'cam.png',
+				'patterns.png',
+				'pipe.png',
+				'blanket.png',
+                ],
+                i = 1;
+            
+            for (var j=images.length; j--;) {
+                var img = new Image();
+                img.src = images[j];
+            }
+
+            document.getElementById('myButton').addEventListener('click', function() {
+                this.src = images[i >= images.length - 1 ? i = 0 : ++i];
+            }, false);
+        </script>
+		
+
+	</div>
+		
+
+
+<!--
+		
+		<iframe src="silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+
+		
+-->
+
+		
+    </body>
+
+	
+
+</html>
