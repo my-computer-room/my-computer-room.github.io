@@ -80,6 +80,13 @@ body{
 	width: 500px;
 }
 
+	.container{
+	text-align: center;
+	top: 350px;
+	position:relative;
+	filter: drop-shadow(7px 7px 10px #333);
+
+}
 	
 
 #audio{
@@ -88,6 +95,3 @@ body{
 	
 }
 
-
-	
-}
