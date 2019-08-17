@@ -8,7 +8,7 @@
 
 body{
 	background:url("fur.jpg");
-	width: 100%;
+	
 }
 
 @keyframes float {
@@ -52,7 +52,7 @@ body{
 
 @media only screen and (max-width: 1367px) {
 	body{
-		background:green;
+		background:grey;
 	}	
 
 #audio{
@@ -60,7 +60,7 @@ body{
 }
 	
 #myButton{
-	width: 400px;
+	width: 600px;
 	animation: float  3s infinite ;
 }
 
