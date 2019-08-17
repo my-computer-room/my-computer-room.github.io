@@ -71,6 +71,7 @@ img{
 @media only screen and (max-width: 600px) {
 	
 	html {
+		background: blue;
     background: url("fur.jpg");
 	background-repeat: repeat-x, repeat-y; 
  
