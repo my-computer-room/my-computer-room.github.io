@@ -67,7 +67,7 @@ img{
 
 @media only screen and (max-width: 600px) {
 	
-	html {
+	body {
     background: url("fur.jpg") no-repeat center center fixed;
  
 
