@@ -38,8 +38,8 @@ body{
 	width: 500px;
 }
  
-img{
-/*	width: 300px;*/
+#images{
+
 	animation: float  3s infinite ;
 
 
