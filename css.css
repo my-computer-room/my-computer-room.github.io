@@ -39,7 +39,6 @@ body{
 }
  
 #images{
-
 	animation: float  3s infinite ;
 
 
@@ -53,20 +52,18 @@ body{
 
 @media only screen and (max-width: 1366px) {
 	body{
-	background:red;
+		background:red;
 	}	
 
 #audio{
 	 display:flex;
 }
 	
-/*
 #myButton{
 	width: 400px;
 }
 
 	
-*/
 
 @media only screen and (max-width: 600px) {
 	
