@@ -53,7 +53,7 @@ img{
 
 @media only screen and (max-width: 1366px) {
 	body{
-	background:url("fur.jpg");
+	background:red;
 	}	
 
 #audio{
@@ -70,20 +70,13 @@ img{
 
 @media only screen and (max-width: 600px) {
 	
-	html {
+	body {
 		background: blue;
 /*    background: url("fur.jpg");*/
 	background-repeat: repeat-x, repeat-y; 
  
 
 	}
-	
-.container{
-	text-align: center;
-	top: 200px;
-	position:relative;
-	filter: drop-shadow(7px 7px 10px #333);
-
 }
 	
 #myButton{
