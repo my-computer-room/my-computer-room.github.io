@@ -68,7 +68,7 @@ img{
 @media only screen and (max-width: 600px) {
 	
 	html {
-    background: url("fur.jpg") repeat;
+    background: url("fur.jpg") repeat repeat-y;
  
 
 	}
