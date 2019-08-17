@@ -61,6 +61,7 @@ body{
 	
 #myButton{
 	width: 400px;
+	animation: float  3s infinite ;
 }
 
 .container{
@@ -71,10 +72,6 @@ body{
 	}
 	
 	
-#images{
-	animation: float  3s infinite ;
-
-
 }
 }
 
