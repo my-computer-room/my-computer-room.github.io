@@ -48,8 +48,9 @@ img{
 	 display: none;
 }
 
-@media (min-width: 320px) and (max-width: 480px){
-	
+/* ==== FOR SMALLER SCREENS LESS THAN 600PX ==== */
+
+@media only screen and (max-width: 600px) {	
 	body{
 		background:blue;
 	}
