@@ -56,7 +56,9 @@ img{
 
 }
 
-
+body{
+	background: red;
+}
 #audio{
 	 display: flex;
 }
