@@ -50,37 +50,3 @@ img{
 
 
 
-@media only screen and (max-width: 1366px) {
-	body{
-	background:blue;
-	}	
-
-#audio{
-	 display:flex;
-}
-	
-#myButton{
-	width: 400px;
-}
-
-	
-
-@media only screen and (max-width: 600px) {
-	
-	body {
-		background: red;
-/*    background: url("fur.jpg") no-repeat center center fixed;*/
- 
-
-	}
-	
-	
-#audio{
-	 display:flex;
-}
-	
-}
-
-
-	
-}
