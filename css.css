@@ -52,7 +52,7 @@ img{
 
 @media only screen and (max-width: 1366px) {
 	body{
-	background:url("fur.jpg");
+	background:blue;
 	}	
 
 #audio{
@@ -74,12 +74,7 @@ img{
 
 	}
 	
-	#myButton{
-	width: 80%;
-}
-
 	
-
 #audio{
 	 display:flex;
 }
