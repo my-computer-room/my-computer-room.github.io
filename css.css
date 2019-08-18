@@ -33,14 +33,12 @@ body{
 }
 
 
-/*
 #myButton{
 	width: 300px;
 }
-*/
  
 img{
-/*	width: 300px;*/
+	width: 300px;
 	animation: float  3s infinite ;
 
 
