@@ -55,7 +55,9 @@ img{
 	}
 	
 	
-	
+	#audio{
+	 display: flex;
+}
 	
 	
 }
