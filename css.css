@@ -48,7 +48,7 @@ img{
 	 display: none;
 }
 
-@media only screen and (max-width: 320px){
+@media (min-width: 320px) and (max-width: 480px){
 	
 	body{
 		background: red;
