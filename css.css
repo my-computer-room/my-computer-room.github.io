@@ -7,7 +7,8 @@
 }
 
 body{
-	background:url("fur.jpg");
+	background: red;
+/*	background:url("fur.jpg");*/
 }
 
 @keyframes float {
