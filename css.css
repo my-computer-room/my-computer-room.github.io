@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: red;
+/*	background:url("fur.jpg");*/
+}
+
+@keyframes float {
+	0% {
+
+		transform: translatey(0px);
+	}
+	50% {
+
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.container{
+	text-align: center;
+	top: 200px;
+	position:relative;
+	filter: drop-shadow(7px 7px 10px #333);
+
+}
+
+
+#myButton{
+	width: 300px;
+}
+ 
+img{
+	width: 300px;
+	animation: float  3s infinite ;
+
+
+}
+
+#audio{
+	 display: none;
+}
+
+/* ==== FOR SMALLER SCREENS LESS THAN 600PX ==== */
+
+@media only screen and (max-width: 500px) {	
+	
+	
+	#audio{
+	 display: flex;
+}
+	
+	
+}
+
