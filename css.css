@@ -52,7 +52,7 @@ img{
 
 @media only screen and (max-width: 1366px) {
 	body{
-	background:url("fur.jpg") repeat;
+	background:url("fur.jpg") ;
 	}	
 
 #audio{
